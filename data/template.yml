@@ -1,10 +1,42 @@
 ---
-name: The first person
+name: Ooran
 gender: male
-bio: some bio
+bio: 
 image: images/placeholder.png
 spouse:
-  name: Name of Wife
+  name: To be Traced
 children:
-  - name: First Child
-  - name: Second Child
+  - name: Khadar
+    gender: male
+    image: images/placeholder.png
+    bio: Chitteth Family
+    spouse: Khadija
+    children:
+      - name: Abdu
+        gender: male
+        image: images/placeholder.png
+        bio:
+        spouse: Pathumma
+        children:
+          - name: Kadher Pilla
+            gender: male
+            image: images/placeholder.png
+            bio:
+            spouse: Khadeeja
+            children:
+              - name: Abdul Kalam
+              - name: Ajmal
+              - name: Rafeeque
+              - name: Afsal
+      - name: Ammu
+      - name: Pathumma
+      - name: Aishi
+      - name: Hajara
+      - name: Nabeesa 
+      - name: Avachi
+  - name: Ibrahim
+  - name: Ismail
+  - name: Ahammed
+  - name: Kunjipareed
+  - name: Manapulla
+

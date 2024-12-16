@@ -39,39 +39,70 @@ $(() => {
 
 	svg = svg.append('g').attr('class', 'tree-container');
 
-	const zoom = d3
-		.zoom()
-		.scaleExtent([0.4, 4])
+	// const zoom = d3
+	// 	.zoom()
+	// 	.scaleExtent([0.4, 4])
+	// 	.on('zoom', () => {
+	// 		// console.log('on zoom', d3.event.transform);
+	// 		svg.attr('transform', d3.event.transform);
+	// 	});
+
+	// // this is the correct way to set initial scale and translate
+	// rectBg.call(zoom).call(zoom.transform, d3.zoomIdentity.translate(90, height / 2).scale(1));
+
+	// // FIXME: debug
+	// window.svg = svg;
+	// window.zoom = zoom;
+	// window.rectBg = rectBg;
+	// window.data = data;
+
+	// $.get('data/greek-gods.yml').done(dataStr => {
+	// 	// console.log(dataStr);
+	// 	data = jsyaml.load(dataStr);
+
+	// 	// Assigns parent, children, height, depth
+	// 	root = d3.hierarchy(data, d => d.children);
+	// 	root.x0 = height / 2;
+	// 	root.y0 = 0;
+
+	// 	// Collapse after the second level
+	// 	root.children.forEach(collapse);
+
+	// 	update(root);
+	// });
+		// Define the zoom behavior with scale extent
+	const zoom = d3.zoom()
+		.scaleExtent([0.5, 5]) // Allow zooming out to 0.5x and zooming in to 5x
 		.on('zoom', () => {
-			// console.log('on zoom', d3.event.transform);
 			svg.attr('transform', d3.event.transform);
 		});
-
-	// this is the correct way to set initial scale and translate
-	rectBg.call(zoom).call(zoom.transform, d3.zoomIdentity.translate(90, height / 2).scale(1));
-
+	
+	// Apply the zoom behavior to the rectBg element
+	rectBg.call(zoom).call(zoom.transform, d3.zoomIdentity.translate(width / 2, height / 2).scale(1));
+	
 	// FIXME: debug
 	window.svg = svg;
 	window.zoom = zoom;
 	window.rectBg = rectBg;
 	window.data = data;
-
+	
 	$.get('data/greek-gods.yml').done(dataStr => {
 		// console.log(dataStr);
 		data = jsyaml.load(dataStr);
-
+	
 		// Assigns parent, children, height, depth
 		root = d3.hierarchy(data, d => d.children);
 		root.x0 = height / 2;
 		root.y0 = 0;
-
+	
 		// Collapse after the second level
 		root.children.forEach(collapse);
-
+	
 		update(root);
 	});
-
+	
 	// declares a tree layout and assigns the size
+
 	const treemap = d3
 		.tree()
 		.size([height, width])
@@ -103,7 +134,7 @@ $(() => {
 			d._children = d.children;
 			d._children.forEach(collapse);
 			// expand all by default
-			// d.children = null;
+			d.children = null;
 		}
 	}
 
