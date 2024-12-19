@@ -79,7 +79,6 @@ $(() => {
 	
 	// Apply the zoom behavior to the rectBg element
 	rectBg.call(zoom).call(zoom.transform, d3.zoomIdentity.translate(width / 2, height / 2).scale(1));
-	
 	// FIXME: debug
 	window.svg = svg;
 	window.zoom = zoom;
@@ -164,6 +163,15 @@ $(() => {
 			.attr('class', d => (d._children ? 'node node--has-children' : 'node'))
 			.attr('transform', () => `translate(${source.y0},${source.x0})`)
 			.on('click', click);
+		
+		// Add images to the nodes
+		nodeEnter
+        .append('image')
+        .attr('xlink:href', d => d.data.image) // Assuming 'photo' is the URL of the image in your data
+        .attr('x', -12)
+        .attr('y', -12)
+        .attr('width', 24)
+        .attr('height', 24);
 
 		// Add person block
 		const personBlock = nodeEnter.append('g').attr('transform', d => {

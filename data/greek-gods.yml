@@ -1,15 +1,15 @@
 ---
-name: To be traced
+name: Ooran's Father
 gender: male
 bio: 
 image: images/placeholder.png
-spouse: To be traced
+spouse: Ooran's Mother
 children:
   - name: Ooran
     gender: male
     bio: 
     image: images/placeholder.png
-    spouse: To be traced
+    spouse: Ooran's Wife
     children:
       - name: Khadar
         gender: male
@@ -277,6 +277,7 @@ children:
                 spouse: Shabana
                 children:
                   - name: Muzammil
+                    gender: male
               - name: Suhara
                 gender: female
               - name: Jameela
@@ -568,6 +569,18 @@ children:
                     gender: female
               - name: Haseena
                 gender: female
+          - name: Asya
+            gender: female
+          - name: Nabeesa
+            gender: female
+          - name: Aishapulla
+            gender: female
+          - name: Khadiji
+            gender: female
+          - name: Mariyumma
+            gender: female
+          - name: Avvamma
+            gender: female
       - name: Manapulla
         gender: male
         image: images/placeholder.png
@@ -588,8 +601,14 @@ children:
                 children:
                   - name: Ijaz
                     gender: male
+                    image: images/placeholder.png
+                    bio: Kizhakkethil Family
+                    spouse: Farsa
                   - name: Rameez
                     gender: male
+                    image: images/placeholder.png
+                    bio: Kizhakkethil Family
+                    spouse: Kabia
               - name: Nazar
                 gender: male
                 image: images/placeholder.png
@@ -656,7 +675,7 @@ children:
                     bio: Kizhakkethil Family
                     spouse: Nadia
                     children:
-                      - name: Mohd Farzan
+                      - name: Mohd Faizan
                         gender: male
                   - name: Shereena
                     gender: female
@@ -690,7 +709,7 @@ children:
                     gender: female
               - name: Rasheeda
                 gender: female
-              - name: Saida
+              - name: Sajida
                 gender: female
               - name: Vaheeda
                 gender: female
@@ -712,15 +731,19 @@ children:
                     gender: male
                   - name: Imthiyas Aalam
                     gender: male
+              - name: Shyla
+                gender: female
+              - name: Nisha
+                gender: female
           - name: Aishi
             gender: female
       - name: Hawwamma
         gender: female
-  - name: "?"
+  - name: Ooran's Brother 1
     gender: male
     bio:
     image: images/placeholder.png
-    spouse: "?"
+    spouse: Ooran's Sister-in-law 1
     children:
       - name: Ahammed Pilla
         gender: male
@@ -750,6 +773,10 @@ children:
                 gender: female
               - name: Zeenath
                 gender: female
+          - name: Nabeesa
+            gender: female
+          - name: Pathu
+            gender: female
       - name: Kadher Pilla
         gender: male
         bio: Chathanvelipadam Family
@@ -806,154 +833,157 @@ children:
               - name: Nadeera
                 gender: female
               - name: Ubairath
+                gender: female
+          - name: Ibrahim Pilla
+            gender: male
+            bio: Chathanvelipadam Family
+            image: images/placeholder.png
+            spouse: Khadeeja
+            children:
+              - name: Nazar
                 gender: male
-      - name: Ibrahim Pilla
-        gender: male
-        bio: Chathanvelipadam Family
-        image: images/placeholder.png
-        spouse: Khadeeja
-        children:
-          - name: Nazar
-            gender: male
-            image: images/placeholder.png
-            bio: Chathanvelipadam Family
-            spouse: Shemeena
-            children:
-              - name: Amiya Fathima
-                gender: female
-          - name: Latheef
-            gender: male
-            image: images/placeholder.png
-            bio: Chathanvelipadam Family
-            spouse: Sulekha
-            children:
-              - name: Shafi
+                image: images/placeholder.png
+                bio: Chathanvelipadam Family
+                spouse: Shemeena
+                children:
+                  - name: Amiya Fathima
+                    gender: female
+              - name: Latheef
                 gender: male
-          - name: Katharu
-            gender: male
-            image: images/placeholder.png
-            bio: Chathanvelipadam Family
-            spouse: Shameeda
-            children:
-              - name: Mushtaq
+                image: images/placeholder.png
+                bio: Chathanvelipadam Family
+                spouse: Sulekha
+                children:
+                  - name: Shafi
+                    gender: male
+              - name: Katharu
                 gender: male
-              - name: Safiya
+                image: images/placeholder.png
+                bio: Chathanvelipadam Family
+                spouse: Shameeda
+                children:
+                  - name: Mushtaq
+                    gender: male
+                  - name: Safiya
+                    gender: female
+                  - name: Thanu Mehrin
+                    gender: female
+              - name: Jameela
                 gender: female
-              - name: Thanu Mehrin
+              - name: Noorjahan
                 gender: female
-          - name: Jameela
-            gender: female
-          - name: Noorjahan
-            gender: female
-      - name: Abu
-        gender: male
-        bio: Chathanvelipadam Family
-        image: images/placeholder.png
-        spouse: Haleema
-        children:
-          - name: Kunju mon
+          - name: Abu
             gender: male
-            image: images/placeholder.png
             bio: Chathanvelipadam Family
-            spouse: Thasneem
-            children:
-            - name: Aman Mohd
-              gender: male
-            - name: Sana Fathima
-              gender: female
-          - name: Subaida
-            gender: female
-          - name: Shamlath
-            gender: female
-          - name: Rasheeda
-            gender: female
-          - name: Raseena
-            gender: female
-      - name: Muhammed
-        gender: male
-        bio: Chathanvelipadam Family
-        image: images/placeholder.png
-        spouse: Jameela
-        children:
-          - name: Jaleel
-            gender: male
             image: images/placeholder.png
-            bio: Chathanvelipadam Family
-            spouse: Vaheeda
+            spouse: Haleema
             children:
-              - name: Mishal
+              - name: Kunju mon
                 gender: male
-              - name: Mehrin
+                image: images/placeholder.png
+                bio: Chathanvelipadam Family
+                spouse: Thasneem
+                children:
+                - name: Aman Mohd
+                  gender: male
+                - name: Sana Fathima
+                  gender: female
+              - name: Subaida
                 gender: female
-          - name: Muneer
+              - name: Shamlath
+                gender: female
+              - name: Rasheeda
+                gender: female
+              - name: Raseena
+                gender: female
+          - name: Muhammed
             gender: male
-            image: images/placeholder.png
             bio: Chathanvelipadam Family
-            spouse: Juby
+            image: images/placeholder.png
+            spouse: Jameela
             children:
-              - name: Ihsan
+              - name: Jaleel
                 gender: male
-              - name: Fawas
+                image: images/placeholder.png
+                bio: Chathanvelipadam Family
+                spouse: Vaheeda
+                children:
+                  - name: Mishal
+                    gender: male
+                  - name: Mehrin
+                    gender: female
+              - name: Muneer
                 gender: male
-              - name: Hanan
+                image: images/placeholder.png
+                bio: Chathanvelipadam Family
+                spouse: Juby
+                children:
+                  - name: Ihsan
+                    gender: male
+                  - name: Fawas
+                    gender: male
+                  - name: Hanan
+                    gender: female
+              - name: Shihab
+                gender: male
+                image: images/placeholder.png
+                bio: Chathanvelipadam Family
+                spouse: Raseela
+                children:
+                  - name: Nehar Fathima
+                    gender: female
+                  - name: Aisha Zahna
+                    gender: female
+              - name: Noufiya
                 gender: female
-          - name: Shabu
+          - name: Karim
             gender: male
-            image: images/placeholder.png
             bio: Chathanvelipadam Family
-            spouse: Raseela
-            children:
-              - name: Nehar Fathima
-                gender: female
-              - name: Aisha Zaina
-                gender: female
-      - name: Karim
-        gender: male
-        bio: Chathanvelipadam Family
-        image: images/placeholder.png
-        spouse: Sainaba
-        children:
-          - name: Muhammed Sageer
-            gender: male
             image: images/placeholder.png
-            bio: Chathanvelipadam Family
-            spouse: Hafsath
+            spouse: Sainaba
             children:
-              - name: Sumayya
+              - name: Muhammed Sageer
+                gender: male
+                image: images/placeholder.png
+                bio: Chathanvelipadam Family
+                spouse: Hafsath
+                children:
+                  - name: Sumayya
+                    gender: female
+                  - name: Fathima
+                    gender: female
+                  - name: Mariyam
+                    gender: female
+              - name: Saalih
+                gender: male
+                image: images/placeholder.png
+                bio: Chathanvelipadam Family
+                spouse: Nisa
+                children:
+                  - name: Hana Fathima
+                    gender: female
+                  - name: Isha Haleema
+                    gender: female
+              - name: Sajeena
                 gender: female
-              - name: Fathima
-                gender: female
-              - name: Mariyam
-                gender: female
-          - name: Saalih
-            gender: male
-            image: images/placeholder.png
-            bio: Chathanvelipadam Family
-            spouse: Nisa
-            children:
-              - name: Hana Fathima
-                gender: female
-              - name: Isha Haleema
-                gender: female
-  - name: "?"
+          - name: Kadheeja
+            gender: female
+          - name: Hajara
+            gender: female
+          - name: Hawa
+            gender: female
+  - name: Ooran's Brother 2
     gender: male
-    bio:
+    bio: Manath Family
     image: images/placeholder.png
-    spouse: "?"
+    spouse: Ooran's Sister-in-law 2
     children:
-      - name: "?"
-  - name: "?"
+      - name: To be traced
+  - name: Ooran's Brother 3
     gender: male
-    bio:
+    bio: Manath Family
     image: images/placeholder.png
-    spouse: "?"
+    spouse: Ooran's Sister-in-law 2
     children:
-      - name: "?"
-  - name: "?"
-    gender: male
-    bio:
-    image: images/placeholder.png
-    spouse: "?"
-    children:
-      - name: "?"
+      - name: To be traced
   
